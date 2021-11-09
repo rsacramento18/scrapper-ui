@@ -1,11 +1,10 @@
 import React from 'react';
-import axios from 'axios';
 
 const Item = (props) => {
   return (
     <div className='item'>
       <div className='image'>
-        <img src={props.image}/>
+        <img src={props.image} alt={props.image}/>
       </div>
       <div className='data'>
         <div className='title'>
