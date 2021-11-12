@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <div className="title">
-        <h1>Scrapper</h1>
+        <h1>Fraldinhas</h1>
       </div>
       <div className="all-items">
       {data.map((item, index) => {
