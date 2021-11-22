@@ -12,7 +12,7 @@ function App() {
         console.log(res);
         setData(res.data);
       });
-  }, []);
+  });
 
 
   return (
