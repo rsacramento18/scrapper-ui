@@ -5,6 +5,9 @@ const Item = (props) => {
     <div className='item'>
       <div className='data'>
         <div className='name'>
+          <h3>{props.item.supermarket}</h3>
+        </div>
+        <div className='name'>
           <h3>{props.item.name}</h3>
         </div>
 
